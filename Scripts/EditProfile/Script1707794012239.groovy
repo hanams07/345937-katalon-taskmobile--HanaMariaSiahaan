@@ -19,10 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\USER\\Documents\\Solodroid_E-CommerceApp Demo_3.2.0.apk', true)
 
-Mobile.delay(2)
-
-//Mobile.delay(2)
-
 Mobile.tap(findTestObject('Object Repository/EditProfile/android.widget.TextView - Profile'), 0)
 
 Mobile.tap(findTestObject('Object Repository/EditProfile/android.widget.TextView - EDIT'), 0)
@@ -36,6 +32,12 @@ Mobile.setText(findTestObject('Object Repository/EditProfile/android.widget.Edit
 Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/EditProfile/android.widget.Button - OK'), 0)
+
+//Mobile.delay(2)
+//
+//Mobile.tap(findTestObject('Object Repository/EditProfile/android.widget.ImageButton'), 0)
+//
+//WebUI.verifyElementText(findTestObject('Object Repository/android.widget.TextView - Hana Maria'), 'Hana Maria')
 
 Mobile.delay(2)
 

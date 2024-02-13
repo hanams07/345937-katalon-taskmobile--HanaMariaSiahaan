@@ -1,0 +1,4 @@
+1
+00:00:00,004 --> 00:00:00,026
+1. startApplication("C:\Users\USER\Documents\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+

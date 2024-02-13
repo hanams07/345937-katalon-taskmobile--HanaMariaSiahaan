@@ -36,5 +36,11 @@ Mobile.tap(findTestObject('Object Repository/EditProfile3/android.widget.Button 
 
 Mobile.delay(2)
 
+//Mobile.tap(findTestObject('Object Repository/EditProfile/android.widget.ImageButton'), 0)
+//
+//WebUI.verifyElementText(findTestObject('Object Repository/android.widget.TextView - Hana Maria'), 'Hana Maria')
+//
+//Mobile.delay(2)
+
 Mobile.closeApplication()
 

@@ -17,30 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 Mobile.startApplication('C:\\Users\\USER\\Documents\\Solodroid_E-CommerceApp Demo_3.2.0.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Search/android.widget.TextView'), 0)
+Mobile.tap(findTestObject('Object Repository/AddToCart/android.widget.TextView'), 0)
 
-Mobile.delay(2)
+Mobile.tap(findTestObject('Object Repository/AddToCart/android.widget.EditText - Search'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Search/android.widget.EditText - Search'), 0)
+Mobile.setText(findTestObject('Object Repository/AddToCart/android.widget.EditText - Search'), 'mini digital', 0)
 
-Mobile.setText(findTestObject('Object Repository/Search/android.widget.EditText - Search'), 'samsung', 0)
+Mobile.tap(findTestObject('Object Repository/AddToCart/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Search/android.widget.TextView - Samsung Galaxy S10 - Black'), 0)
+Mobile.tap(findTestObject('Object Repository/AddToCart/android.widget.Button - ADD TO CART'), 0)
 
-Mobile.delay(2)
+Mobile.tap(findTestObject('Object Repository/AddToCart/android.widget.EditText'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Search/android.widget.Button - ADD TO CART'), 0)
+Mobile.setText(findTestObject('Object Repository/AddToCart/android.widget.EditText'), '2', 0)
 
-Mobile.tap(findTestObject('Object Repository/Search/android.widget.EditText'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Search/android.widget.EditText'), '5', 0)
-
-Mobile.tap(findTestObject('Object Repository/Search/android.widget.Button - ADD'), 0)
-
-Mobile.delay(2)
+Mobile.tap(findTestObject('Object Repository/AddToCart/android.widget.Button - ADD'), 0)
 
 Mobile.closeApplication()
 
