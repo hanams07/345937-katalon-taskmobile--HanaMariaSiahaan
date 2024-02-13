@@ -1,0 +1,8 @@
+1
+00:00:00,369 --> 00:00:38,711
+1. startApplication("C:\Users\USER\Documents\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:38,719 --> 00:00:39,939
+5. tap(findTestObject("Object Repository/EditProfile3/android.widget.TextView - Profile"), 0)
+
